@@ -6,6 +6,6 @@ Each interval is known as a pomodoro, from the Italian word for 'tomato', after 
 
 Visit the [Wikipedia page](https://en.wikipedia.org/wiki/Pomodoro_Technique) for more information.
 
-Visit the website from [here](https://github.com/AVidhanR/Pomodoro)
+Visit the website from [here](https://avidhanr.github.io/Pomodoro/)
 
 Created by [AVidhanR](https://linkedin.com/in/AVidhanR)
