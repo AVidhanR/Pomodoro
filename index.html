@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- javascript -->
+    <script src="./script.js" defer></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link rel="icon" href="./image/pomodoro-logo.png" />
+
+    <!-- title -->
+    <title>Pomodoro</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Pomodoro</h1>
+      <div class="app-message">
+        Press <span class="rainbow-text pacifico-regular">start</span> to begin
+      </div>
+      <div class="app-circle">
+        <div class="circle-shape">
+          <div class="semi-circle right-side circle-mask"></div>
+          <div class="semi-circle right-side circle"></div>
+          <div class="semi-circle left-side circle-mask"></div>
+          <div class="semi-circle left-side circle"></div>
+        </div>
+        <div class="app-counter-box">
+          <p><span class="minutes">25</span>:<span class="seconds">00</span></p>
+        </div>
+        <button class="btn-start" style="font-size: large"><b>Start</b></button>
+      </div>
+      <footer>
+        &copy;<span id="current-year"></span>
+        <a
+          href="https://linkedin.com/in/AVidhanR"
+          target="_blank"
+          class="profile-redirect"
+          >A Vidhan Reddy</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>

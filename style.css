@@ -1,0 +1,153 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rainbow-text {
+  font-size: 2rem; /* Ensure the text is large enough */
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff7f00,
+    #9191ff,
+    #9c39ff,
+    #ff00ff,
+    #a9a900,
+    #00ad00
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensure the element is inline-block */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: radial-gradient(circle, #e0c3fc, #8ec5fc);
+  /* background: linear-gradient(to top, #e0c3fc, #8ec5fc); */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: calc(100vh);
+  overflow: clip;
+}
+
+h1 {
+  margin: 0 auto 10px auto;
+}
+
+p {
+  margin: 0;
+}
+
+.app-message {
+  font-size: 2rem;
+  height: 20px;
+  margin: 10px auto 40px auto;
+}
+
+.app-container {
+  width: 350px;
+  height: 420px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+}
+.app-circle {
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.circle-shape {
+  pointer-events: none;
+}
+
+.semi-circle {
+  position: absolute;
+  width: 100px;
+  height: 160px;
+  box-sizing: border-box;
+  border: solid 6px;
+}
+
+.left-side {
+  top: 0;
+  left: 0;
+  transform-origin: right center;
+  transform: rotate(0deg);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-right: none;
+  z-index: 1;
+}
+
+.right-side {
+  top: 0;
+  left: 100px;
+  transform-origin: left center;
+  transform: rotate(0deg);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-left: none;
+}
+
+.circle {
+  border-color: #5144ac;
+}
+
+.circle-mask {
+  border-color: #6d5ae8;
+}
+
+.app-counter-box {
+  font-family: "Droid Sans Mono", monospace;
+  font-size: 250%;
+  position: relative;
+  top: 50px;
+}
+
+button {
+  position: relative;
+  top: 50px;
+  font-size: 80%;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #1500ff81;
+}
+
+.profile-redirect {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+
+.profile-redirect:hover {
+  color: #4d4dffde;
+}
+
+footer {
+  margin-top: calc(30%);
+}
