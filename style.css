@@ -80,8 +80,8 @@ p {
 .app-circle {
   position: relative;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: calc(200px);
+  height: calc(200px);
 }
 
 .circle-shape {
