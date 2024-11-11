@@ -73,6 +73,7 @@ p {
       color: #333;
     }
     > a:hover {
+      transition: color 0.7s ease;
       color: #4d4dffde;
     }
   }
@@ -144,6 +145,7 @@ button {
 }
 
 button:hover {
+  transition: color 0.7s ease;
   color: #1500ff81;
 }
 
@@ -154,7 +156,8 @@ button:hover {
 }
 
 .profile-redirect:hover {
-  color: #4d4dffde;
+  transition: color 0.7s ease;
+  color: #1500ff81;
 }
 
 footer {
