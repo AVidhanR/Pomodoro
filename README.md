@@ -8,5 +8,5 @@ Visit the [Wikipedia page](https://en.wikipedia.org/wiki/Pomodoro_Technique) for
 
 Visit the website from [here](https://avidhanr.github.io/Pomodoro/)
 
-Created by [AVidhanR](https://linkedin.com/in/AVidhanR)
+Created & Maintained by [AVidhanR](https://linkedin.com/in/AVidhanR)
 <!-- ![image](https://github.com/user-attachments/assets/13d19824-63f0-468d-8d64-683e962e6264) -->
